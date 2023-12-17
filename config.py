@@ -19,9 +19,7 @@ BOT_USERNAME = getenv("BOT_USERNAME" , "AloneXMusicBot")
 BOT_NAME = getenv("BOT_NAME" , "Alone Music")
 #get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME" , "AloneXHelper")
-# Your Github Repo.. Will be shown on /start Command
-ALONE_REPO = getenv("ALONE_REPO", "https://github.com/TeamAloneOp/AloneXMusic")
-
+ 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
